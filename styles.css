@@ -1,0 +1,79 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: lime;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.favicon {
+    width: 16px;
+}
+
+#contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 75%;
+}
+
+#contenedor-titulo {
+    margin-top: 5em;
+    margin-left: 2em;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+#titulo {
+    font-size: 2em;
+    align-self: initial;
+}
+
+#texto {
+    font-size: 1.5em;
+}
+
+#boton-refresh {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+#contenedor-boton {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-right: 3em;
+    margin-bottom: 5em;
+}
+
+@media only screen and (min-device-width: 480px) {
+    #titulo {
+        font-size: 2.5em;
+    }
+
+    #contenedor-titulo {
+        margin-top: 7em;
+        margin-left: 4em
+    }
+
+    #contenedor-boton {
+        margin-bottom: 7em;
+        margin-right: 5em;
+    }
+
+    #boton-refresh {
+        font-size: 1em;
+    }
+
+}
+
